@@ -76,6 +76,7 @@ PLATFORMS
 DEPENDENCIES
   data_mapper
   dm-sqlite-adapter
+  dm-postgres-adapter
   pg
   haml
   sinatra
