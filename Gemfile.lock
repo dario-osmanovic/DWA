@@ -76,5 +76,6 @@ PLATFORMS
 DEPENDENCIES
   data_mapper
   dm-sqlite-adapter
+  pg
   haml
   sinatra
