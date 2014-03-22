@@ -1,0 +1,9 @@
+.deck-container
+	#drop_markdown_text
+		Drop Your MarkDown text here
+
+%form{:action => '/', :method => 'POST', :id => "save_presentation"}
+	%textarea{:rows=>"6", :id => "markdown_droped_text", :class => "hidden", :name=>'content'}
+	%textarea{:rows=>"6", :id => "markdown_droped_slide1", :class => "hidden", :name=>'picture'}
+
+	%input{:type=>'submit', :value=>"Save"}

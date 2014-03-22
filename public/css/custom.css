@@ -1,0 +1,28 @@
+#drop_markdown_text{
+	display: block;
+	margin-left: 15%;
+	margin-top: 20%;
+	width: 70%;	
+	min-height: 70%;
+	border: 1px solid #333333;
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	padding: 100px 25px;
+}
+.over{		
+	border: 2px solid #111111!important;
+}
+h1{
+	padding-top: 1em!important;
+	position: relative!important;
+}
+
+.hidden{
+	display: none;
+}
+
+.small-slide{
+	width: 40%;
+	height: 40%;
+}

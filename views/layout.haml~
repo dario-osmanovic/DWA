@@ -1,0 +1,21 @@
+!!!
+%html
+	%head
+		%title User's presentations
+		%link{href: "css/deck.core.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/deck.scale.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/web-2.0.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/horizontal-slide.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/print.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/custom.css", media: "screen", rel: "stylesheet"}/
+		%link{href: "css/default.css", media: "screen", rel: "stylesheet"}/
+
+	%body
+		= yield
+
+		%script{src: "javascript/jquery.min.js"}
+		%script{src: "javascript/deck.core.js"}
+		%script{src: "javascript/highlight.pack.js"}
+		%script{src: "javascript/deck.scale.js"}
+		%script{src: "javascript/markdown.js"}
+		%script{src: "javascript/custom.js"}
